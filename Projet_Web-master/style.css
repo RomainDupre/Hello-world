@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial';
+}
+body {
+  background-color: #FFFFFF;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+header {
+  background-color: #E0E0E0;
+  display: flex;
+  justify-content: space-between;
+  width: auto;
+  height: auto;
+  margin:auto;
+  padding: 10px;
+  align-items: center;
+  font-size:20px;
+
+}
+
+header nav ul {
+  list-style-type: none;
+}
+header li {
+  display: inline;
+  text-align: center;
+  padding: 5pt;
+  background-color: #D0D0D0;
+  border-radius: 5px;
+  margin-left:50px;
+  margin-right:50px;
+}
+header form {
+  display: inline;
+}
+#contenu {
+	Margin-top:35px;
+	align-items:center;
+}
+#contenuQui {
+  display:flex;
+  flex-direction:column ;
+  margin:auto;
+  width:80%;
+  margin-bottom:50px;
+  padding: 10px;
+  text-align: justify;
+  
+}
+#descriptionacceuil{
+  display: inline;
+  padding: 10px;
+  width: 80%;
+  text-align: justify;
+}
+#descriptionacceuil h2{
+	margin-bottom:30px;
+	font-size:200%;	
+	text-decoration:underline;
+}
+#descriptionacceuil P{
+	font-size:150%;
+}
+
+#contenuQui h2 {
+  margin-top:15px;	
+}
+#nous{
+  margin-top:10px;
+}
+
+#contenuQui h3 {
+  	margin-top:15px;
+	padding-left:25px;
+}
+#ville_du_congo {
+  display:flex;
+  margin:auto;
+  width:40%;	
+}
+#lgdInongo {
+  text-align:center;
+  font-style:italic;
+  font-size:70%;
+}
+#joindre{
+  display:flex;
+  flex-direction:column;
+  padding-left:20px;	
+}
+#horaires {
+  display:flex;
+  align-items:center; 
+}
+table,
+td {
+  border: 2px solid #000000;	
+  text-align:center;
+  padding:2px;
+}
+
+#promo {
+  text-align: center;
+  background-color: #D0D0D0;
+  width: 85%;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50em;
+  border-radius: 20px;
+  flex-wrap: nowrap;
+  margin-top: 35px;
+}
+#promo h3{
+	font-size:200%;
+}
+#promoarticle {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  background-color: #D0D0D0;
+  width: 100%;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.image {
+  width: 100%;
+}
+#icon {
+  width: 40px;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+#panier {
+  width: 15px;
+}
+#search {
+  display:inline-block;
+  block-size:10px;
+}
+#conditions {
+	font-size:50%;
+	position: absolute; bottom: 30px; right:0px; 
+	border: 2px; 
+}
+footer {
+  background-color: #E0E0E0;
+  text-align: center;
+  width:100%;
+  bottom: 0;
+  padding: 5px;
+  position: fixed; bottom: 0;
+}
